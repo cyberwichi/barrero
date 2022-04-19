@@ -1,0 +1,152 @@
+body,
+.card {
+  /* background-color: rgb(41, 87, 128); */
+  background-color: transparent;
+  max-width: 100vw;
+
+}
+
+.wasap {
+  position: fixed;
+  bottom:40px;
+  right: 20px;
+  z-index: 2;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  /* background-image: url('/imagenes/background.jpg');*/
+  /*   background-color: #eee;
+  background-position: 0 60px;
+  background-size: contain; */
+  -webkit-text-stroke: .5px rgb(31, 30, 30);
+}
+
+.contenedor {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.titulo {
+  font-family: 'Knewave', cursive;
+  font-size: 7rem;
+  text-shadow: 1px 1px rgb(163, 159, 159);
+  font-weight: 100;
+}
+
+.card-text {
+  font-size: 1.7rem;
+  color: rgb(0, 0, 0);
+  /* text-shadow: 2px 2px black; */
+
+}
+
+#contacto,
+.telefono,
+.bi-telephone {
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
+  /* text-shadow: 2px 2px black; */
+}
+
+.cuerpo-1 {
+  background-image: url('/imagenes/Servir-la-cerveza.jpg.webp');
+  background-color: #000;
+
+  height: 75vh;
+  background-attachment: fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  overflow: hidden;
+}
+
+.cuerpo-1-texto-1 {
+  font-family: 'Knewave', cursive;
+  margin: 2rem 2rem;
+  font-size: 2.5rem;
+  /* text-shadow: 2px 2px black; */
+}
+
+.cuerpo-1-texto-2 {
+  font-family: 'Knewave', cursive;
+  margin: 3rem 2rem;
+  font-size: 2.5rem;
+  /* text-shadow: 2px 2px black; */
+}
+
+.modal-dialog {
+  max-width: 700px !important;
+}
+
+@media (max-width: 1060px) {
+  .cuerpo-1-texto-1 {
+    margin: 2rem 3rem;
+    font-size: 2.3rem;
+  }
+
+  .cuerpo-1-texto-2 {
+    margin: 2rem 1rem;
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 930px) {
+  .cuerpo-1-texto-1 {
+    margin: 1rem 1rem;
+    font-size: calc(4vw);
+  }
+
+  .cuerpo-1-texto-2 {
+    margin: 1rem 1rem;
+    font-size: calc(4vw);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .modal-dialog {
+    max-width: 95vw;
+  }
+
+  .agradecido {
+    flex-direction: column;
+  }
+
+  .cuerpo-1-texto-1 {
+    margin: .5rem 1rem;
+    font-size: calc(4.5vw);
+  }
+
+  .cuerpo-1-texto-2 {
+    margin: 1rem 1rem;
+    font-size: calc(4.5vw);
+  }
+
+  .titulo {
+
+    font-size: 5rem;
+    text-shadow: 1px 1px rgb(163, 159, 159);
+    font-weight: 100;
+  }
+}
+
+@media (max-width: 490px) {
+
+
+  .cuerpo-1-texto-1 {
+    font-family: 'Rubik', sans-serif;
+    margin: .5rem 1rem;
+    font-size: calc(5.4vw);
+  }
+
+  .cuerpo-1-texto-2 {
+    font-family: 'Rubik', sans-serif;
+    margin: 1rem 1rem;
+    font-size: calc(5.4vw);
+  }
+
+}
