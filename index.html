@@ -15,7 +15,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Knewave:wght@0,300;0,400;0,800;&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <meta name="description"
         content="Bar Terraza en El Parque del Barrero en San Fernando Cadiz . Celebra el cumpleaños de tus hijos en nuestro Bar. LLámanos al 670 36 67 82">
@@ -63,6 +63,10 @@
 </head>
 
 <body>
+    <div class="intro">
+        <h2 class="">Bar El Barrero</h2>
+        <img src="/imagenes/telescope.png" alt="">
+    </div>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="bootstrap" viewBox="0 0 118 94">
             <title>Bootstrap</title>
@@ -83,184 +87,201 @@
                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
         </symbol>
     </svg>
-    <header class="">
+    <div class="modal fade" id="cumpleanos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Cumpleaños</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <picture>
+                                    <source srcset="/imagenes/VOLANTE A5 CUMPLEAOSWEB2.jpg" media="(min-width: 600px)">
+                                    <a href="#contacto" target="_blank">
+                                        <img class="w-100" src="/imagenes/volante-a5-cumpleaos-final-2.jpg"
+                                            alt="cumpleaños en el barrero">
+                                    </a>
 
-        <div class="d-flex flex-column flex-wrap align-items-center justify-content-center" id="site-navigation"
-            itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" aria-label="Navegación del sitio">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                <img class="" src="/imagenes/cerveza.png" alt="cerveza en el bar el barrero">
-            </a>
+                                </picture>
+                            </div>
 
-            <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
-                <!--   <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li> -->
-
-                <li><a href="#contacto" class="nav-link  btn">Contacta</a></li>
-                <li><button class="nav-link btn " data-toggle="modal" data-target="#cumpleanos">Cumpleaños</button></li>
-            </ul>
-
-            <!--   <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                    <input type="search" class="form-control form-control-dark" placeholder="Search..."
-                        aria-label="Search">
-                </form> -->
-        </div>
-
-    </header>
-
-
-
-
-    <main>
-
-
-        <div class="contenedor">
-            <div class="wasap">
-                <a data-toggle="tooltip" data-placement="top" title="Hablemos por whatsApp" target="_blank" href="https://api.whatsapp.com/send?phone=34670366782">
-                    <img width="96" src="/imagenes/logowhatapp.webp" alt="logo whatsApp">
-                </a>
-            </div>
-            <div class="text-center">
-                <h1 class="titulo p-2">Bar El Barrero</h1>
-
-
-                <div class="cuerpo-1  text-white" data-aos="fade-up">
-                    <!-- <img src="imagenes/Servir-la-cerveza.jpg.webp" class="img-fluid rounded" alt="Example image"
-                            loading="lazy"> -->
-                    <div class="col-6 p-2 m-2 ">
-                        <div class=" cuerpo-1-texto-1"> Bienvenidos al Bar El Barrero.</div>
-
-                        <div class=" cuerpo-1-texto-2"> Bar Cafetería en el conocido Parque del Barrero después llamado
-                            Parque de la Constitución de 1812   hoy <strong>Parque Astronomico del Barrero</strong>
                         </div>
                     </div>
                 </div>
+    <div class="marco">
+        
+        
+        <div class="wasap">
+            <a data-toggle="tooltip" data-placement="top" title="Hablemos por whatsApp" target="_blank"
+                href="https://api.whatsapp.com/send?phone=34670366782">
+                <img width="96" src="/imagenes/logowhatapp.webp" alt="logo whatsApp">
+            </a>
+        </div>
+        <header>
+       
 
-                <div class="card border-0  p-xxl-4">
-                    <div class="row g-0">
-                        <div class="col-md-7">
-                            <div class="card-body p-xl-5 m-xl-2">
+            <div class="d-flex flex-column flex-wrap align-items-center justify-content-center" id="site-navigation"
+                itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"
+                aria-label="Navegación del sitio">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <img class="" src="/imagenes/cerveza.png" alt="cerveza en el bar el barrero">
+                </a>
 
-                                <p class="card-text p-5">Un bello parque que constituye junto con el cercano Parque
-                                    Almirante Lahule el pulmón verde del centro de nuestra
-                                    ciudad </p>
+                <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
+                    <!--   <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li> -->
+
+                    <li><a href="#contacto" class="nav-link  btn">Contacta</a></li>
+                    <li><button class="nav-link btn " data-toggle="modal"
+                            data-target="#cumpleanos">Cumpleaños</button>
+                    </li>
+                </ul>
+               
+
+                <!--   <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                <input type="search" class="form-control form-control-dark" placeholder="Search..."
+                    aria-label="Search">
+            </form> -->
+            </div>
+
+        </header>
+        <div class="visor">
+          <main>
+                <div class="contenedor">
+                    
+                    <div class="text-center">
+                        <div class="diapositiva">
+                            <h1 class="titulo p-2  ">Bar El Barrero</h1>
+                           
+                        </div>
+                        
+
+
+                        <div class="cuerpo-1  text-white" data-aos="fade-up">
+                            <!-- <img src="imagenes/Servir-la-cerveza.jpg.webp" class="img-fluid rounded" alt="Example image"
+                            loading="lazy"> -->
+                            <div class="col-6 p-2 m-2 ">
+                                <div class=" cuerpo-1-texto-1"> Bienvenidos al Bar El Barrero.</div>
+
+                                <div class=" cuerpo-1-texto-2"> Bar Cafetería en el conocido Parque del Barrero después
+                                    llamado
+                                    Parque de la Constitución de 1812 hoy <strong>Parque Astronomico del
+                                        Barrero</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card border-0  p-xxl-4">
+                            <div class="row g-0">
+                                <div class="col-md-7">
+                                    <div class="card-body p-xl-5 m-xl-2">
+
+                                        <p class="card-text p-5">Un bello parque que constituye junto con el cercano
+                                            Parque
+                                            Almirante Lahule el pulmón verde del centro de nuestra
+                                            ciudad </p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-12 d-flex align-items-center" data-aos="fade-up"
+                                    data-aos-anchor-placement="top-center">
+                                    <img src="/imagenes/childrens-barefoot-sandals.jpg" class="img-fluid rounded"
+                                        alt=" Donde usted y sus hijos podran disfrutar">
+                                </div>
 
                             </div>
                         </div>
-                        <div class="col-md-5 col-12 d-flex align-items-center" data-aos="fade-up"
-                            data-aos-anchor-placement="top-center">
-                            <img src="/imagenes/childrens-barefoot-sandals.jpg" class="img-fluid rounded"
-                                alt=" Donde usted y sus hijos podran disfrutar">
-                        </div>
+                        <div class="card border-0 p-xxl-4">
+                            <div class="row g-0">
+                                <div class="col-md-5 col-12 d-flex align-items-center">
+                                    <img src="/imagenes/old-woman-with-dog-sitting-in-the-park.jpg"
+                                        class="img-fluid rounded" data-aos="fade-up"
+                                        data-aos-anchor-placement="top-center"
+                                        alt=" Donde usted y sus hijos podran disfrutar">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body p-xl-5 m-xl-2">
 
-                    </div>
-                </div>
-                <div class="card border-0 p-xxl-4">
-                    <div class="row g-0">
-                        <div class="col-md-5 col-12 d-flex align-items-center">
-                            <img src="/imagenes/old-woman-with-dog-sitting-in-the-park.jpg" class="img-fluid rounded"
+                                        <p class="card-text p-5 "> Justo aquí en este idílico ambiente le
+                                            ofrecemos nuestros servicios de bar y cafetería.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex align-items-center p-xxl-4">
+                            <img src="/imagenes/banner2.jpg" class="img-fluid rounded" data-aos="fade-up"
+                                data-aos-anchor-placement="top-center" alt=" Donde usted y sus hijos podran disfrutar">
+                        </div>
+                        <div class="card border-0  p-xxl-4">
+                            <div class="row g-0">
+
+                                <div class="col-md-7">
+                                    <div class="card-body p-xl-5 m-xl-2">
+
+                                        <p class="card-text p-5"> Con nosotros podrá celebrar el
+                                            cumpleaños de sus hijos, tomar un buen café, pasar la tarde o simplemente
+                                            disfrutar
+                                            del
+                                            entorno</p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-12 d-flex align-items-center">
+                                    <img src="/imagenes/tourist-signs.jpg" class="img-fluid rounded" data-aos="fade-up"
+                                        data-aos-anchor-placement="top-center"
+                                        alt=" Donde usted y sus hijos podran disfrutar">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12  p-xxl-4">
+                            <img src="/imagenes/leaves-fall_J405LO4B6Y.jpg" class="img-fluid rounded w-100"
                                 data-aos="fade-up" data-aos-anchor-placement="top-center"
                                 alt=" Donde usted y sus hijos podran disfrutar">
                         </div>
-                        <div class="col-md-7">
-                            <div class="card-body p-xl-5 m-xl-2">
 
-                                <p class="card-text p-5 "> Justo aquí en este idílico ambiente le
-                                    ofrecemos nuestros servicios de bar y cafetería.</p>
+                        <div class="col-lg-12  p-xxl-4 ">
+                            <h2 id="contacto" class="pb-5 mb-0 pt-5 pt-xxl-0"> <strong>¿ Hablamos ?</strong></h2>
 
+                            <div class="card mt-0 border-0 rounded-0" data-aos="fade-up">
+                                <a target="_blank"
+                                    href="https://www.google.es/maps/place/Bar+Barbacoa+Barrero/@36.464686,-6.2053757,17z/data=!3m1!4b1!4m5!3m4!1s0xd0dcd237fc3a847:0x8cf932b91ce71ac0!8m2!3d36.4646672!4d-6.2031496">
+                                    <img src="imagenes/mapabarrero.jpg" class="card-img-top" alt="imagen de contacto">
+                                </a>
+
+                                <div class="card-body">
+                                    <p class=" h1 p-5 telefono "><strong><i class="bi bi-telephone"></i><br> 670 36 67
+                                            82</strong>
+                                    </p>
+                                </div>
                             </div>
+
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 d-flex align-items-center p-xxl-4">
-                    <img src="/imagenes/banner2.jpg" class="img-fluid rounded" data-aos="fade-up"
-                        data-aos-anchor-placement="top-center" alt=" Donde usted y sus hijos podran disfrutar">
-                </div>
-                <div class="card border-0  p-xxl-4">
-                    <div class="row g-0">
 
-                        <div class="col-md-7">
-                            <div class="card-body p-xl-5 m-xl-2">
 
-                                <p class="card-text p-5"> Con nosotros podrá celebrar el
-                                    cumpleaños de sus hijos, tomar un buen café, pasar la tarde o simplemente disfrutar
-                                    del
-                                    entorno</p>
 
-                            </div>
-                        </div>
-                        <div class="col-md-5 col-12 d-flex align-items-center">
-                            <img src="/imagenes/tourist-signs.jpg" class="img-fluid rounded" data-aos="fade-up"
-                                data-aos-anchor-placement="top-center" alt=" Donde usted y sus hijos podran disfrutar">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12  p-xxl-4">
-                    <img src="/imagenes/leaves-fall_J405LO4B6Y.jpg" class="img-fluid rounded w-100" data-aos="fade-up"
-                        data-aos-anchor-placement="top-center" alt=" Donde usted y sus hijos podran disfrutar">
-                </div>
 
-                <div class="col-lg-12  p-xxl-4 ">
-                    <h2 id="contacto" class="pb-5 mb-0 pt-5 pt-xxl-0"> <strong>¿ Hablamos ?</strong></h2>
-
-                    <div class="card mt-0 border-0 rounded-0" data-aos="fade-up">
-                        <a target="_blank"
-                            href="https://www.google.es/maps/place/Bar+Barbacoa+Barrero/@36.464686,-6.2053757,17z/data=!3m1!4b1!4m5!3m4!1s0xd0dcd237fc3a847:0x8cf932b91ce71ac0!8m2!3d36.4646672!4d-6.2031496">
-                            <img src="imagenes/mapabarrero.jpg" class="card-img-top" alt="imagen de contacto">
-                        </a>
-
-                        <div class="card-body">
-                            <p class=" h1 p-5 telefono "><strong><i class="bi bi-telephone"></i><br> 670 36 67
-                                    82</strong>
-                            </p>
-                        </div>
                     </div>
 
-                </div>
-
-
-
-
-            </div>
-
-
-        </div>
-        <div class="modal fade" id="cumpleanos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cumpleaños</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <picture>
-                            <source srcset="/imagenes/VOLANTE A5 CUMPLEAOSWEB2.jpg" media="(min-width: 600px)">
-                            <a href="#contacto" target="_blank">
-                                <img class="w-100" src="/imagenes/volante-a5-cumpleaos-final-2.jpg"
-                                    alt="cumpleaños en el barrero">
-                            </a>
-
-                        </picture>
-                    </div>
 
                 </div>
-            </div>
-        </div>
-    </main>
-    <!-- Modal -->
+                
+            </main>
+            <!-- Modal -->
 
 
 
-    <footer>
-        <div class="container d-flex flex-wrap justify-content-center align-items-center py-3 mb-4 flex-column">
-            <div class="">
-                <img src="/imagenes/cerveza.png" alt="cerveza en el bar el barrero">
-            </div>
+            <footer>
+                <div class="container d-flex flex-wrap justify-content-center align-items-center py-3 mb-4 flex-column">
+                    <div class="">
+                        <img src="/imagenes/cerveza.png" alt="cerveza en el bar el barrero">
+                    </div>
 
 
-            <ul class="nav list-unstyled d-flex justify-content-between my-4">
-                <!--  <li class="ms-3"><a aria-label="twiter" class="text-muted" href="#"><svg class="bi" width="24"
+                    <ul class="nav list-unstyled d-flex justify-content-between my-4">
+                        <!--  <li class="ms-3"><a aria-label="twiter" class="text-muted" href="#"><svg class="bi" width="24"
                             height="24">
                             <use xlink:href="#twitter"></use>
                         </svg></a></li>
@@ -268,33 +289,35 @@
                             height="24">
                             <use xlink:href="#instagram"></use>
                         </svg></a></li> -->
-                <li class="ms-3"><a target="_blank" aria-label="facebook" class="text-muted"
-                        href="https://www.facebook.com/barbarrero/"><svg class="bi" width="48" height="48">
-                            <use xlink:href="#facebook"></use>
-                        </svg></a></li>
-            </ul>
+                        <li class="ms-3"><a target="_blank" aria-label="facebook" class="text-muted"
+                                href="https://www.facebook.com/barbarrero/"><svg class="bi" width="48" height="48">
+                                    <use xlink:href="#facebook"></use>
+                                </svg></a></li>
+                    </ul>
 
-        </div>
-        <div class="container text-center my-5 mx-auto">
-            <div class="h4 border p-3">
-                Agradecimientos
-                <div class="d-flex justify-content-around p-3 flex-wrap agradecido  ">
-                    <div class="border border-secondary p-5 m-2">
-                        <div class="h5">Prensa y Papeleria Iril </div>
-                        <div> C/ Escritor German Caos</div>
-
-                    </div>
-
-                    <a class="border border-secondary p-5 m-2" href="https://github.com/cyberwichi"
-                        target="_blank"><span class="text-muted">© 2022 Cyberwichi</span></a>
-                    <a class="border border-secondary p-5 m-2" href="https://stocksnap.io" target="_blank">StockSnap</a>
                 </div>
-            </div>
+                <div class="container text-center my-5 mx-auto">
+                    <div class="h4 border p-3">
+                        Agradecimientos
+                        <div class="d-flex justify-content-around p-3 flex-wrap agradecido  ">
+                            <div class="border border-secondary p-5 m-2">
+                                <div class="h5">Prensa y Papeleria Iril </div>
+                                <div> C/ Escritor German Caos</div>
+
+                            </div>
+
+                            <a class="border border-secondary p-5 m-2" href="https://github.com/cyberwichi"
+                                target="_blank"><span class="text-muted">© 2022 Cyberwichi</span></a>
+                            <a class="border border-secondary p-5 m-2" href="https://stocksnap.io"
+                                target="_blank">StockSnap</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
         </div>
-    </footer>
 
-
-
+    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
@@ -304,8 +327,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+   <!--  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> -->
     <script src="/js/app.js"></script>
     <script>
         AOS.init();

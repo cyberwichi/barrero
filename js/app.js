@@ -1,5 +1,9 @@
-window.onload = function() {
-    var scene = document.getElementById('scene');
-var parallaxInstance = new Parallax(scene);
+indow.onload = function() {
+
+   $('.intro').click(function(){
+    $('.intro').addClass('fuera');
+    $('.marco').addClass('dentroMarco');
+   })
   };
+
 

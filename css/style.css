@@ -5,7 +5,27 @@ body,
   max-width: 100vw;
 
 }
-
+.intro{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(209, 193, 124);
+}
+.intro img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor:pointer;
+  z-index: 100;
+  width: 70%;
+}
+.intro h2{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor:pointer;
+}
 .wasap {
   position: fixed;
   bottom:40px;
@@ -28,6 +48,10 @@ body {
 }
 
 .titulo {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+ 
   font-family: 'Knewave', cursive;
   font-size: 7rem;
   text-shadow: 1px 1px rgb(163, 159, 159);
@@ -81,7 +105,39 @@ body {
 .modal-dialog {
   max-width: 700px !important;
 }
+.marco {
+  width: 100vw;
+  height: 100vh;
+  background-color:  rgb(250, 231, 149);;
+  position: fixed;
+  opacity: 0;
+}
+.visor{
+  overflow: auto;
+  height: 90vw;
+  width: 90vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-38%);
+  background-color: white;
+  border-radius: 50%;
+  max-width: 740px;
+  max-height: 740px;
 
+  border: 4px solid black;
+}
+.visor::-webkit-scrollbar{
+  display: none;
+}
+header{
+  background-color: aliceblue;
+}
+.diapositiva{
+height: 100vh;
+position: relative;
+
+}
 @media (max-width: 1060px) {
   .cuerpo-1-texto-1 {
     margin: 2rem 3rem;
@@ -92,6 +148,7 @@ body {
     margin: 2rem 1rem;
     font-size: 2.3rem;
   }
+
 }
 
 @media (max-width: 930px) {
@@ -149,4 +206,37 @@ body {
     font-size: calc(5.4vw);
   }
 
+}
+
+/* animacion intro */
+
+
+.fuera, .fuera img{
+ /*  animation-duration: 3s;
+  animation-name: slidein; */
+  animation: slidein 2.8s forwards
+}
+
+@keyframes slidein {
+  0% {
+    width: 75%;
+  }
+
+  100% {    
+    width: 0%;
+  }
+}
+.dentroMarco{
+  animation: slideout 3.0s forwards  
+}
+
+@keyframes slideout {
+  0% {
+    opacity: 0;
+  }
+
+  100% {    
+    opacity: 1;
+    background-color: #000;
+  }
 }
