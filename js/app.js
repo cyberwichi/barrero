@@ -1,4 +1,4 @@
-indow.onload = function() {
+window.onload = function() {
 
    $('.intro').click(function(){
     $('.intro').addClass('fuera');
